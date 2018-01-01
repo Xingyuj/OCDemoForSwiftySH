@@ -185,15 +185,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_MODULE_NAMESPACE_PUSH("SHSdkSwift")
 
-/// This is a convenience class for the typical single user case. To use this
 SWIFT_CLASS("_TtC10SHSdkSwift16SHClientsManager")
 @interface SHClientsManager : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SHClientsManager * _Nullable shProcessor;)
 + (SHClientsManager * _Nullable)shProcessor SWIFT_WARN_UNUSED_RESULT;
 + (void)setShProcessor:(SHClientsManager * _Nullable)value;
-+ (void)setupWithAppKey:(NSString * _Nonnull)appKey;
-- (void)tagViaApi:(NSDictionary<NSString *, NSString *> * _Nonnull)content authToken:(NSString * _Nonnull)authToken;
-- (void)tagViaLogline:(NSDictionary<NSString *, NSString *> * _Nonnull)content;
+@property (nonatomic, copy) NSString * _Nonnull appKey;
+@property (nonatomic, copy) NSString * _Nullable host;
+- (void)heartBeat;
++ (void)setupWithAppKey:(NSString * _Nonnull)appKey completionHandler:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))completionHandler;
+- (void)tagViaApi:(NSDictionary<NSString *, NSString *> * _Nonnull)content authToken:(NSString * _Nonnull)authToken completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completionHandler;
+- (void)tagViaLogline:(NSDictionary<NSString *, NSString *> * _Nonnull)content completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completionHandler;
+- (void)flushBufferWithCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completionHandler;
+- (void)simulateNormalLogline:(NSString * _Nonnull)action;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 

@@ -18,7 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [SHClientsManager setupWithAppKey: @"hipointX"];
+    
+    [SHClientsManager setupWithAppKey: @"hipointX" completionHandler: ^(NSString* host, NSString* installid){
+        NSLog(@"oooo");
+        NSDictionary *info = @{};
+        if(host != nil) {
+            info = @{ @"host": host };
+        } else if (installid != nil) {
+            info = @{ @"installid": installid };
+        }
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"SHSetupDone" object:self userInfo:info];
+    }];
     return YES;
 }
 
@@ -49,5 +59,6 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
 @end
+
+

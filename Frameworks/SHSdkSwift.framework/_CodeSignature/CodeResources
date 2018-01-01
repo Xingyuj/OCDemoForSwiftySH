@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		s4jdCZi5UQuBqFyUUkqI4CIoorY=
-		</data>
 		<key>Headers/SHClientsManager.swift</key>
 		<data>
-		a/5GmsfrpCcPNG0jCSKF4Gg+RJs=
+		188NY/Vjd2fc/w/tPAGMCX1QoJI=
 		</data>
 		<key>Headers/SHSdkSwift-Swift.h</key>
 		<data>
-		vc0m6IYRtWiBM95WmWMnjiBBWEc=
+		7O3RsOCWHssMgz5zyYzyMS1Vdh0=
 		</data>
 		<key>Headers/SHSdkSwift.h</key>
 		<data>
@@ -26,11 +22,11 @@
 		</data>
 		<key>Modules/SHSdkSwift.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		eLedf8P3Q5yuzG8lDIyw7zipuik=
+		DRoJa5e4oKQAvu0aXumhkpYbX0w=
 		</data>
 		<key>Modules/SHSdkSwift.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zQ9bs+1mOqbpW6fBJGyWhEb8oKw=
+		SHTkrdF9ypSTY1rSNjevdRGErDU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,22 +39,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a/5GmsfrpCcPNG0jCSKF4Gg+RJs=
+			188NY/Vjd2fc/w/tPAGMCX1QoJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LY+HQxgovq9FMAKrliVBx9YX39c5gadHvytczTV9BUA=
+			iZ8Q+a8tfzQZ8etIZ+oPLRJjG4II1hK1aO8w/dcGy0A=
 			</data>
 		</dict>
 		<key>Headers/SHSdkSwift-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vc0m6IYRtWiBM95WmWMnjiBBWEc=
+			7O3RsOCWHssMgz5zyYzyMS1Vdh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aEJqwk1/rIPWjdPAeFGiIcVGVNUuFk9AWRCVfeAXehc=
+			DQ/AbcUsxj2kgmVcnrejOvgWX8+JB/n+2ULVUnja000=
 			</data>
 		</dict>
 		<key>Headers/SHSdkSwift.h</key>
@@ -76,22 +72,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eLedf8P3Q5yuzG8lDIyw7zipuik=
+			DRoJa5e4oKQAvu0aXumhkpYbX0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			WN5QLUgVtMiE/YZXbimh2crCQP6WJGjyppbqyjE6DgY=
+			A1WflULm4cWJWReOXoKR0i31nze9FSUHF9y41qQVUGw=
 			</data>
 		</dict>
 		<key>Modules/SHSdkSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zQ9bs+1mOqbpW6fBJGyWhEb8oKw=
+			SHTkrdF9ypSTY1rSNjevdRGErDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			RRYd4qzLFuX5d3fhc4F3c25dIj37DuVIjy7j40o6DVE=
+			uK0PA66pCfz3wT8yFHk1C0yz4LN6lfBEtn5WJYHYmLw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
